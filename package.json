@@ -1,0 +1,29 @@
+{
+  "name": "website-boilerplate",
+  "version": "1.0.0",
+  "description": "A simple single page website boilerplate (html, ejs, sass, images)",
+  "author": "Aman Kumar",
+  "license": "MIT",
+  "scripts": {
+    "dev": "webpack-dev-server --config webpack.config.js",
+    "build": "webpack --mode=production --config webpack.config.js"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.6.2",
+    "@babel/preset-env": "^7.6.2",
+    "autoprefixer": "^9.6.1",
+    "babel-loader": "^8.0.6",
+    "css-loader": "^3.2.0",
+    "cssnano": "^4.1.10",
+    "file-loader": "^4.2.0",
+    "html-loader": "^0.5.5",
+    "html-webpack-plugin": "^3.2.0",
+    "mini-css-extract-plugin": "^0.8.0",
+    "postcss-loader": "^3.0.0",
+    "sass": "^1.22.12",
+    "sass-loader": "^8.0.0",
+    "webpack": "^4.41.0",
+    "webpack-cli": "^3.3.9",
+    "webpack-dev-server": "^3.8.1"
+  }
+}
