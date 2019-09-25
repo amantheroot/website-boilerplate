@@ -74,7 +74,7 @@ module.exports = (env, argv) => {
         },
         {
           // Now we apply rule for images
-          test: /\.(png|jpe?g|gif|svg)$/,
+          test: /\.(png|jpe?g|gif|svg|ico)$/,
           use: [
             {
               // Using file-loader for these files
@@ -98,6 +98,7 @@ module.exports = (env, argv) => {
         filename: "bundle.css"
       }),
       new HtmlWebpackPlugin({
+        favicon: "src/images/favicon.ico",
         template: "src/index.html"
       })
 
